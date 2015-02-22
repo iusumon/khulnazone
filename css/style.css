@@ -1,0 +1,60 @@
+body {
+	font-family: Aria, Helvetica, sans-serif;
+}
+
+#delConfDialog, #msgDialog, #updateDialog {
+	font-size: 1em;
+	
+}
+
+#updateDialog label {
+	display: inline-block;
+	text-align: right;
+	width: 90px;
+}
+
+#tabs {
+	font-size: .9em;
+	margin: 0 auto;
+	width: 800px;
+}
+
+.ui-widget-content {
+	font-size: 1em;
+}
+
+#records {
+	font-size: 1em;
+	width: 100%;
+}
+
+#records tr:nth-child(2n) {
+	background: #EAEAEA;
+}
+
+#records tr:hover {
+	background: #CCCCCC;
+}
+
+#records td {
+	padding: 6px;
+	margin: 8px;
+}
+
+#ajaxLoadAni {
+	background: #3A3A3A;
+	color: #fff;
+	display: none;
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	left: 40%;
+	padding: 8px;
+	width: 106px;
+	z-index: 9999;
+}
+
+#ajaxLoadAni span{
+	float: right;
+	margin: 2px 0 0 0;
+}
